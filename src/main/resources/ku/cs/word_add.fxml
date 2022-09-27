@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.shop.controllers.WordAddController">
+   <children>
+      <TextField fx:id="wordAddExampleTextField" layoutX="569.0" layoutY="353.0" prefHeight="26.0" prefWidth="169.0" />
+      <Label layoutX="181.0" layoutY="219.0" prefHeight="62.0" prefWidth="438.0" text="add vocabulary">
+         <font>
+            <Font size="64.0" />
+         </font></Label>
+      <Button layoutX="39.0" layoutY="18.0" mnemonicParsing="false" onAction="#handleBackToHome" text="back" />
+      <ImageView fx:id="imageNaja" fitHeight="209.0" fitWidth="154.0" layoutX="323.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="newWordTextField" layoutX="181.0" layoutY="343.0" prefHeight="26.0" prefWidth="169.0" />
+      <Label layoutX="112.0" layoutY="348.0" prefHeight="18.0" prefWidth="63.0" text="New word" />
+      <Label layoutX="87.0" layoutY="385.0" prefHeight="18.0" prefWidth="80.0" text="PartsOfSpeech" />
+      <TextField fx:id="newPartsOfSpeechTextField" layoutX="181.0" layoutY="381.0" prefHeight="26.0" prefWidth="169.0" />
+      <Label layoutX="120.0" layoutY="421.0" prefHeight="18.0" prefWidth="48.0" text="Meaning" />
+      <TextField fx:id="newMeaningTextField" layoutX="180.0" layoutY="420.0" prefHeight="26.0" prefWidth="170.0" />
+      <Label layoutX="580.0" layoutY="324.0" prefHeight="18.0" prefWidth="73.0" text="Add Example" />
+      <Label layoutX="523.0" layoutY="357.0" prefHeight="18.0" prefWidth="32.0" text="Word" />
+      <Label layoutX="507.0" layoutY="394.0" prefHeight="18.0" prefWidth="48.0" text="Example" />
+      <TextField fx:id="AddExampleTextField" layoutX="569.0" layoutY="394.0" prefHeight="8.0" prefWidth="170.0" />
+      <Button layoutX="230.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleAddWord" text="Add Word" />
+      <Button layoutX="610.0" layoutY="477.0" mnemonicParsing="false" onAction="#handleAddExample" text="Add example" />
+      <TextField fx:id="exampleTextField1" layoutX="180.0" layoutY="464.0" prefHeight="8.0" prefWidth="170.0" />
+      <Label layoutX="120.0" layoutY="467.0" prefHeight="18.0" prefWidth="48.0" text="Example" />
+   </children>
+</AnchorPane>
